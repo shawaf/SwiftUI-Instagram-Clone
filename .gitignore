@@ -17,6 +17,7 @@ Pods/
 ### Firebase Patch ###
 .runtimeconfig.json
 .firebase/
+*Info.plist
 
 ### Swift ###
 # Xcode
