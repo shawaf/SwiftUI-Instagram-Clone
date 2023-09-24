@@ -8,8 +8,9 @@
 import SwiftUI
 
 struct CreateUserNameView: View {
-    @State private var userName = ""
     @Environment(\.dismiss) var dismiss
+    @EnvironmentObject var viewModel : RegisterationViewModel
+    
     
     var body: some View {
         VStack( spacing: 12){
@@ -24,7 +25,7 @@ struct CreateUserNameView: View {
                 .foregroundColor(.gray)
                 .padding(.horizontal, 24)
             
-            TextField("UserName", text: $userName)
+            TextField("UserName", text: $viewModel.userName)
                 .autocapitalization(.none)
                 .modifier(IGTextFieldModifier())
             

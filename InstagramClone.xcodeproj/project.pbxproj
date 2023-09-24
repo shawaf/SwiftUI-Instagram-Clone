@@ -37,6 +37,7 @@
 		8C6EBA222AB77E6100D96DFE /* UserStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6EBA212AB77E6100D96DFE /* UserStateView.swift */; };
 		8C6EBA242AB8683300D96DFE /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6EBA232AB8683300D96DFE /* FeedView.swift */; };
 		8C6EBA262AB8683B00D96DFE /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6EBA252AB8683B00D96DFE /* FeedCell.swift */; };
+		8CC677E02AC08C25002EE7FE /* LoginViewModel .swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC677DF2AC08C25002EE7FE /* LoginViewModel .swift */; };
 		8CC8E6322AB87D36001CDF97 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC8E6312AB87D36001CDF97 /* SearchView.swift */; };
 /* End PBXBuildFile section */
 
@@ -69,6 +70,7 @@
 		8C6EBA212AB77E6100D96DFE /* UserStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStateView.swift; sourceTree = "<group>"; };
 		8C6EBA232AB8683300D96DFE /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		8C6EBA252AB8683B00D96DFE /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		8CC677DF2AC08C25002EE7FE /* LoginViewModel .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginViewModel .swift"; sourceTree = "<group>"; };
 		8CC8E6312AB87D36001CDF97 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -127,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				8C502B982ABD9666009EFCD5 /* RegistrationViewModel.swift */,
+				8CC677DF2AC08C25002EE7FE /* LoginViewModel .swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -370,6 +373,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CC677E02AC08C25002EE7FE /* LoginViewModel .swift in Sources */,
 				8C6EBA262AB8683B00D96DFE /* FeedCell.swift in Sources */,
 				8C502B7D2ABD6BD1009EFCD5 /* UploadPostView.swift in Sources */,
 				8C502B6F2ABB0318009EFCD5 /* CreateUserNameView.swift in Sources */,
