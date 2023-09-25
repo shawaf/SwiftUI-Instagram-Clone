@@ -15,16 +15,19 @@ struct ProfileView: View {
     var posts : [Post] {
         return Post.MOCK_POSTS.filter({ $0.user?.username == user.username })
     }
+    
     var body: some View {
             ScrollView {
                 //Header
                 VStack(spacing: 10){
                     //Pic and Status
                     HStack{
-                        Image(user.profileImageUrl ?? "").resizable()
-                            .scaledToFit()
-                            .frame(width: 80, height: 80)
-                            .clipShape(Circle())
+                        if let profileImage = user.profileImageUrl {
+                            Image(profileImage).resizable()
+                                .scaledToFit()
+                                .frame(width: 80, height: 80)
+                                .clipShape(Circle())
+                        }
                         
                         Spacer()
                         HStack(spacing: 8){
@@ -37,11 +40,9 @@ struct ProfileView: View {
                     
                     //Username and Bio
                     VStack(alignment: .leading, spacing: 4){
-                        if let fullname = user.fullName {
-                            Text(fullname)
+                        Text(user.username)
                                 .font(.footnote)
                                 .fontWeight(.semibold)
-                        }
                         if let bio = user.bio {
                             Text(bio)
                                 .font(.footnote)

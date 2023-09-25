@@ -20,11 +20,12 @@ struct CurrentUserProfileView: View {
                 VStack(spacing: 10){
                     //Pic and Status
                     HStack{
-                        Image("profile").resizable()
-                            .scaledToFit()
-                            .frame(width: 80, height: 80)
-                            .clipShape(Circle())
-                        
+                        if let profileImage = user.profileImageUrl{
+                            Image(profileImage).resizable()
+                                .scaledToFit()
+                                .frame(width: 80, height: 80)
+                                .clipShape(Circle())
+                        }
                         Spacer()
                         HStack(spacing: 8){
                             UserStateView(value: 100, title: "Posts")
@@ -36,13 +37,14 @@ struct CurrentUserProfileView: View {
                     
                     //Username and Bio
                     VStack(alignment: .leading, spacing: 4){
-                        Text("Mohamed Elshawaf")
+                        Text(user.username)
                             .font(.footnote)
                             .fontWeight(.semibold)
                         
-                        Text("Software Engineer")
-                            .font(.footnote)
-
+                        if let bio = user.bio {
+                            Text(bio)
+                                .font(.footnote)
+                        }
                     }
                     .frame(maxWidth:.infinity, alignment: .leading)
                     .padding(.horizontal)
