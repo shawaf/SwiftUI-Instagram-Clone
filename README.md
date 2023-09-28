@@ -1,6 +1,6 @@
 # Instagram Clone
 <p align="center">
-<img src="https://www.logo.wine/a/logo/Instagram/Instagram-Wordmark-Logo.wine.svg" title="Coloured_Insagram_Logo" height=400/>
+<img src="https://www.logo.wine/a/logo/Instagram/Instagram-Wordmark-Logo.wine.svg" title="Coloured_Insagram_Logo" height=300/>
 </p>
 
 A clone version of Instagram app build using 
