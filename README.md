@@ -1,14 +1,13 @@
 # Instagram Clone
-<p align="center">
-<img src="https://www.logo.wine/a/logo/Instagram/Instagram-Wordmark-Logo.wine.svg" title="Coloured_Insagram_Logo" height=300/>
-</p>
+
+| Logo | Login | Home | 
+|------|-------|------|
+| ![Logo](https://github.com/shawaf/SwiftUI-Instagram-Clone/assets/6817107/758d6706-ce4d-4bbf-9832-22c097dc0225) | ![Login](https://github.com/shawaf/SwiftUI-Instagram-Clone/assets/6817107/6775094a-acbe-4af1-b36c-9e4eca1abe1e) | ![Home](https://github.com/shawaf/SwiftUI-Instagram-Clone/assets/6817107/b4164733-bf4c-483f-a07b-342907ed65ad) | 
 
 A clone version of Instagram app build using 
 - SwiftUI 
 - Firebase Firestore
 - MVVM 
-
-![WhatsApp Image 2023-09-21 at 10 21 39 AM](https://github.com/shawaf/SwiftUI-Instagram-Clone/assets/6817107/b7363f91-b17e-4b44-9b36-4b6f2a944a70)
 
 ### Feature List 
 - Authorization
