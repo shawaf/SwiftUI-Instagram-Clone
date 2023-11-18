@@ -7,7 +7,10 @@
 A clone version of Instagram app build using 
 - SwiftUI 
 - Firebase Firestore
-- MVVM 
+- MVVM
+  
+|                                      :information_source: This app Still a WORK IN PROGRESS                                               |
+|-------------------------------------------------------------------------------------------------------------------------------------------|
 
 ### Feature List 
 - Authorization
@@ -18,4 +21,4 @@ A clone version of Instagram app build using
 - Share
 - Light and Dark Modes. 
 
-## >> This app still a WORK IN PROGRESS
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
